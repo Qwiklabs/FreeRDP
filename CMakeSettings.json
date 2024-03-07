@@ -1,0 +1,22 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x86-Release",
+      "generator": "Visual Studio 16 2019",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\out\\build",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "variables": [
+        {
+          "name": "OPENSSL_ROOT_DIR",
+          "value": "C:\\Program Files (x86)\\OpenSSL-Win32",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
